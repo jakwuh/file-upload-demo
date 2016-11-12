@@ -1,0 +1,28 @@
+{
+  "name": "file-upload-demo",
+  "version": "1.0.0",
+  "description": "File upload demo 🔨",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jakwuh/file-upload-demo.git"
+  },
+  "keywords": [
+    "file",
+    "upload"
+  ],
+  "author": "jakwuh <jakwuh@yandex-team.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakwuh/file-upload-demo/issues"
+  },
+  "homepage": "https://github.com/jakwuh/file-upload-demo#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
+  }
+}
